@@ -313,7 +313,20 @@ body{
 #contact button:hover {
   background-color: #0056b3;
 }
+.linkedin-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  color: #0a66c2;       
+  font-weight: bold;
+  text-decoration: none;
+  margin-top: 15px;
+}
 
+.linkedin-link:hover {
+  text-decoration: underline;
+  color: #084482;        
+}
 .site-footer {
   background-color: #222;  
   color: #fff;             
@@ -363,4 +376,5 @@ body{
   }
 
 }
+
 
